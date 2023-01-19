@@ -1,0 +1,6 @@
+docker build -t avijitswain/flask_loan_app .
+docker run -p 8000:5000 -d avijitswain/flask_loan_app
+
+http://127.0.0.1:8000/ping
+http://127.0.0.1:8000/params
+http://127.0.0.1:8000/predict
